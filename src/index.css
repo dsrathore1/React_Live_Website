@@ -1,13 +1,87 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  background-color:green !important;
 }
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: rgb(103, 93, 205) !important;
+}
+
+.main_active{
+  border-bottom: 2px solid black !important;
+  
+}
+#header{
+  width: 100%;
+  height: 74vh;
+  margin-top: 70px ;
+}
+
+.btn-outline-primary{
+  border-radius: 20px !important;
+  /* text-decoration: none !important; */
+  transition: 0.5s !important;
+}
+
+@media (max-width:768px){
+  #header{
+    margin-top: 20px;
+  }
+  #header h1{
+    font-size: 28px;
+  }
+  #header h2{
+    font-size: 18px;
+margin-bottom: 30px;
+  }
+  #header .header-img img{
+    width: 70%;
+  }
+}
+
+@media (max-width:992px){
+  #header{
+    height:80vh;
+    text-align: center;
+    }
+  
+  #header .header-img img{
+    width: 60%;
+  }
+  #header .header-img{
+    text-align: center;
+  }
+}
+
+/* .animated{
+  animation:up-down 2s ease-in-out infinite alternate-reverse both !important;
+} */
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both !important;
+}
+
+@keyframes up-down {
+  0%{
+    transform:translateY(10px) !important;
+  }
+
+  100%{
+    transform: translateY(-10px) !important;
+  }
+}
+@-webkit-keyframes up-down {
+  0%{
+    transform:translateY(10px) !important;
+  }
+
+  100%{
+    transform: translateY(-10px) !important;
+  }
+}
+
