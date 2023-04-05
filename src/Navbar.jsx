@@ -33,7 +33,7 @@ const Navbar = () => {
                         activeClassName="main_active"
                         className="nav-link active"
                         aria-current="page"
-                        to="/"
+                        to="/reactlwebsite"
                       >
                         Home
                       </NavLink>

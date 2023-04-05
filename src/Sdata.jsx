@@ -1,4 +1,3 @@
-// import computer from "./Images/computer.jpeg"
 import web from "./Images/web.jpeg"
 import marketing from "./Images/marketing.jpeg"
 import app from "./Images/app.png"
