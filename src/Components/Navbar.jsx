@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
               <div className="container-fluid">
-                <a className="navbar-brand" to="/">
+                <a className="navbar-brand" href="/">
                   Apni Duniya
                 </a>
                 <button
@@ -33,14 +33,14 @@ const Navbar = () => {
                         activeClassName="main_active"
                         className="nav-link active"
                         aria-current="page"
-                        to="/reactlwebsite"
+                        to="/"
                       >
                         Home
                       </NavLink>
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="/service">
-                       Service
+                        Service
                       </Link>
                     </li>
                     <li className="nav-item">
@@ -53,7 +53,7 @@ const Navbar = () => {
                         Contact
                       </Link>
                     </li>
-                    
+
                   </ul>
                 </div>
               </div>

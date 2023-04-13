@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Contact = () => {
   const [name, setName] = useState({
-    fullname: "",
+    fullName: "",
     phone: "",
     email: "",
     message: "",
@@ -16,9 +16,9 @@ const Contact = () => {
   };
   const inputSubmit = (e) => {
     e.preventDefault();
-    alert(`${name.fullname} 
-           ${name.phone} 
-           ${name.email}   
+    alert(`${name.fullName} 
+          ${name.phone} 
+          ${name.email}   
           ${name.message}`);
   };
 
@@ -39,8 +39,8 @@ const Contact = () => {
                   type="name"
                   class="form-control"
                   id="exampleFormControlInput1"
-                  name="fullname"
-                  value={name.fullname}
+                  name="fullName"
+                  value={name.fullName}
                   onChange={input}
                   placeholder="Enter your name"
                 />

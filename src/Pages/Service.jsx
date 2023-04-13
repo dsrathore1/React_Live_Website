@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "./Card"
-import Sdata from "./Sdata";
+import Card from "../Components/Card.jsx"
+import S_data from "../Components/Sdata.jsx";
 
 const Service = () => {
   return (
@@ -12,16 +12,16 @@ const Service = () => {
         <div className="row">
           <div className="col-10 mx-auto">
             <div className="row gy-4">
-                {Sdata.map((val,index)=>{
-                    return <Card
-                    key = {index}
-                      imgsrc = {val.imgsrc}
-                      title= {val.title}/>
-                })}
-              </div>
+              {S_data.map((val, index) => {
+                return <Card
+                  key={index}
+                  img_src={val.img_src}
+                  title={val.title} />
+              })}
             </div>
           </div>
         </div>
+      </div>
     </>
   );
 };
