@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
               <div className="container-fluid">
-                <a className="navbar-brand" href="/">
+                <a className="navbar-brand" href="/React_Live_Website">
                   Apni Duniya
                 </a>
                 <button
@@ -33,7 +33,7 @@ const Navbar = () => {
                         activeClassName="main_active"
                         className="nav-link active"
                         aria-current="page"
-                        to="/"
+                        to="/React_Live_Website"
                       >
                         Home
                       </NavLink>
