@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/reactlwebsite/static/css/main.28c4b5c7.css",
+    "main.js": "/reactlwebsite/static/js/main.aaa8fad4.js",
+    "static/media/Work.jpg": "/reactlwebsite/static/media/Work.63440aa8e08d8bc8661d.jpg",
+    "static/media/digital.webp": "/reactlwebsite/static/media/digital.04f1c4652ee332790343.webp",
+    "static/media/app.png": "/reactlwebsite/static/media/app.e09407d8ffaa4289e62f.png",
+    "static/media/android.webp": "/reactlwebsite/static/media/android.1aaf27377f1cb20cc384.webp",
+    "static/media/web.jpeg": "/reactlwebsite/static/media/web.641dcc357a77631f7bcb.jpeg",
+    "static/media/software.png": "/reactlwebsite/static/media/software.9945e897c006d8408b3c.png",
+    "static/media/about.jpeg": "/reactlwebsite/static/media/about.d0a7bf902667969f0a4a.jpeg",
+    "static/media/marketing.jpeg": "/reactlwebsite/static/media/marketing.62167fb9f49738dc1b79.jpeg",
+    "index.html": "/reactlwebsite/index.html",
+    "main.28c4b5c7.css.map": "/reactlwebsite/static/css/main.28c4b5c7.css.map",
+    "main.aaa8fad4.js.map": "/reactlwebsite/static/js/main.aaa8fad4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28c4b5c7.css",
+    "static/js/main.aaa8fad4.js"
+  ]
+}
